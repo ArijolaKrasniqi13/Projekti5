@@ -32,3 +32,4 @@ const register = async (req, res,next) => {
       email: email.toLowerCase(),
       password: hashed
     });
+  
